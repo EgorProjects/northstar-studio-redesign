@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { SectionHeading } from '@/components/ui/section-heading'
-import { team } from '@/content/team'
 
 export const metadata: Metadata = {
   title: 'О студии',
@@ -24,10 +23,6 @@ export default function AboutPage() {
         <article><span>01</span><h2>Думать глубже</h2><p>Сначала разбираемся в задаче, контексте и людях. Потом выбираем форму.</p></article>
         <article><span>02</span><h2>Делать вместе</h2><p>Держим процесс открытым и вовлекаем клиента в ключевые решения.</p></article>
         <article><span>03</span><h2>Доводить до дела</h2><p>Соединяем сильную идею с продуманной реализацией и вниманием к мелочам.</p></article>
-      </section>
-      <section className="section team-section">
-        <SectionHeading eyebrow="ЛЮДИ NORTHSTAR" title="Компактная команда. Разные точки зрения." description="Демонстрационные профили — замените на подтверждённые данные команды перед публикацией." />
-        <div className="team-grid">{team.map((person) => <article className="team-card" key={person.name}><div className={`team-portrait ${person.tone}`}><span>{person.initials}</span><i aria-hidden="true">✳</i></div><h3>{person.name}</h3><p>{person.role}</p></article>)}</div>
       </section>
     </>
   )
