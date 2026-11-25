@@ -10,6 +10,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Digital-студия для амбициозных брендов',
   description: 'Northstar Studio объединяет стратегию, брендинг, UX/UI-дизайн и веб-разработку.',
+  alternates: { canonical: '/' },
 }
 
 export default function HomePage() {

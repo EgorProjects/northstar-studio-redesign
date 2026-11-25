@@ -11,12 +11,14 @@ export const metadata: Metadata = {
     template: '%s — Northstar Studio',
   },
   description: 'Независимая digital-студия: Web Development, UI/UX Design, Branding и Digital Marketing.',
+  alternates: { canonical: '/' },
   openGraph: {
     title: 'Northstar Studio — цифровые бренды и продукты',
     description: 'Стратегия, дизайн и разработка цифровых продуктов.',
     siteName: 'Northstar Studio',
     type: 'website',
     locale: 'ru_RU',
+    url: '/',
   },
 }
 

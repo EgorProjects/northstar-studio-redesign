@@ -5,6 +5,7 @@ import { team } from '@/content/team'
 export const metadata: Metadata = {
   title: 'О студии',
   description: 'Познакомьтесь с Northstar Studio: наш подход, ценности и команда.',
+  alternates: { canonical: '/about' },
 }
 
 export default function AboutPage() {

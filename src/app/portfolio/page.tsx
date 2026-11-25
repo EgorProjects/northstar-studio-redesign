@@ -6,6 +6,7 @@ import { projects } from '@/content/projects'
 export const metadata: Metadata = {
   title: 'Портфолио',
   description: 'Концептуальные проекты Northstar Studio в дизайне, разработке, брендинге и маркетинге.',
+  alternates: { canonical: '/portfolio' },
 }
 
 export default function PortfolioPage() {

@@ -5,6 +5,7 @@ import { site } from '@/content/site'
 export const metadata: Metadata = {
   title: 'Контакты',
   description: 'Расскажите Northstar Studio о своей задаче — обсудим следующий шаг.',
+  alternates: { canonical: '/contact' },
 }
 
 export default function ContactPage() {

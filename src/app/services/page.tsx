@@ -5,6 +5,7 @@ import { services } from '@/content/services'
 export const metadata: Metadata = {
   title: 'Услуги',
   description: 'Web Development, UI/UX Design, Branding и Digital Marketing от Northstar Studio.',
+  alternates: { canonical: '/services' },
 }
 
 export default function ServicesPage() {
